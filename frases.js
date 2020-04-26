@@ -1,0 +1,22 @@
+module.exports = [
+  "Hay que consumir carne de cerdo porque tiene mejores grasas que la bovina y además mejora la actividad sexual",
+  "Si quieren tomar decisiones de gobierno, formen un partido y ganen las elecciones",
+  "No fue magia",
+  "Nunca bajen las banderas",
+  "Son piquetes de la abundancia",
+  "La Patria es el otro",
+  "Si alguien me pidiera que definiera a Mauricio Macri en una sola palabra, la única que se me ocurre es: caos. Sí… Mauricio Macri es el caos y por eso creo firmemente que hay que volver a ordenar la Argentina",
+  "Ahora aparecen y proliferan marcas 'la pindonga o cuchuflito', que nadie conoce",
+  "Sólo hay que tenerle miedo a Dios y a mí, un poquito",
+  "Soy yo, Cristina, pelotudo",
+  "No habrá extorsión, insulto o amenaza que me aparten del camino",
+  "El amor del pueblo es lo mejor que uno puede tener",
+  "Tengo una suerte cuando sortean jueces... siempre me tocan Bonadio o Ercolini",
+  "Yo no creo en los neutrales, se habrán dado cuenta. Creo que para neutrales están los suizos. Los argentinos no somos neutrales y, bueno, yo no soy neutral, no lo fui nunca ni lo quiero ser ni lo voy a ser. ",
+  "En este caso sería \'Primero la Patria, después el movimiento y, por último, una mujer\'",
+  "Le he pedido a Alberto Fernández que encabece la fórmula que integraremos juntos, él como candidato a presidente y yo como candidata a vice.",
+  "Gobernar es tomar decisiones que sean comprendidas, aceptadas y compartidas por la inmensa mayoría de nuestro pueblo.",
+  "A mis compañeros y compañeras, les pido que estrechemos filas acompañando una fórmula militando con alegría y con esperanza",
+  "La experiencia no es la perfección, sino más bien sirve y estimula a la comprensión",
+  "Un país mejor es posible porque ya lo vivimos, acariciamos y lo sentimos"
+];
