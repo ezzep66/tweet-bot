@@ -17,7 +17,7 @@ function armarTweet(now) {
 
 function enviarTweet(tw){  
   let tweet = {
-    status: '"' + tw + " " + generarFrase() + '"'
+    status: tw + " " + '"' + generarFrase() + '"'
   };
 
 console.log("test: " ,tweet.status)
