@@ -7,7 +7,8 @@ const T = new Twitter(config);
 
 let now = new Date().getUTCDay();
 
-setInterval(armarTweet,1000 * 60 * 60 * 24, now);
+//setInterval(armarTweet,1000 * 60 * 60 * 24, now);
+setInterval(armarTweet,1500, now);
 
 function armarTweet(now) {
   let tw = "#Buen" + semana[now];
