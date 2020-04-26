@@ -17,11 +17,11 @@ function armarTweet(now) {
 
 function enviarTweet(tw){  
   let tweet = {
-    status: tw + " " + generarFrase()
+    status: '"' + tw + " " + generarFrase() + '"'
   };
 
-  console.log("test: " ,tweet.status)
- //  T.post('statuses/update', tweet, tweeted);
+console.log("test: " ,tweet.status)
+  //T.post('statuses/update', tweet, tweeted);
 
   function tweeted(err, data, response){
     if(err){
