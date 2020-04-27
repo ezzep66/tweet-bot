@@ -21,10 +21,10 @@ function enviarTweet(tw){
     status: tw + " " + '"' + generarFrase() + '"' + " - CFK"
   };
 
-//console.log("test: " ,tweet.status)
-  T.post('statuses/update', tweet)
-  .then(data => console.log(data))
-  .catch(console.error)
+console.log("test: " ,tweet.status)
+  // T.post('statuses/update', tweet)
+  // .then(data => console.log(data))
+  // .catch(console.error)
 
   
 }
