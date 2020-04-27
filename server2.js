@@ -7,7 +7,8 @@ const T = new Twitter(config);
 
 let now = new Date().getUTCDay();
 
-setInterval(armarTweet,1000 * 60 * 60 * 12, now);
+setInterval(armarTweet,5000, now);
+//setInterval(armarTweet,1000 * 60 * 60 * 12, now);
 //setInterval(armarTweet,1500, now);
 
 function armarTweet(now) {
@@ -21,15 +22,11 @@ function enviarTweet(tw){
   };
 
 //console.log("test: " ,tweet.status)
-  T.post('statuses/update', tweet, tweeted);
+  T.post('statuses/update', tweet)
+  .then(data => console.log(data))
+  .catch(console.error)
 
-  function tweeted(err, data, response){
-    if(err){
-      console.error
-    } else {
-      console.log(data)
-    }
-  }
+  
 }
 
 function generarFrase(){
